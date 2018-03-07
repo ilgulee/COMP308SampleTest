@@ -29,6 +29,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\controllers\index.server.controller.js" />
     <Compile Include="app\controllers\tasks.server.controller.js" />
     <Compile Include="app\models\task.server.model.js" />
     <Compile Include="app\routes\tasks.server.routes.js" />
@@ -37,6 +38,8 @@
     <Compile Include="config\express.js" />
     <Compile Include="config\mongoose.js" />
     <Compile Include="server.js" />
+    <Content Include="app\views\add_task.ejs" />
+    <Content Include="app\views\index.ejs" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
