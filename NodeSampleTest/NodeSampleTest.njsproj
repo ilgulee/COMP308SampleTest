@@ -29,6 +29,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\controllers\tasks.server.controller.js" />
+    <Compile Include="app\models\task.server.model.js" />
+    <Compile Include="app\routes\tasks.server.routes.js" />
     <Compile Include="config\config.js" />
     <Compile Include="config\env\development.js" />
     <Compile Include="config\express.js" />
