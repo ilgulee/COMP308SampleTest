@@ -1,0 +1,9 @@
+{
+  "name": "node-sample-test",
+  "version": "0.0.0",
+  "description": "NodeSampleTest",
+  "main": "server.js",
+  "author": {
+    "name": "iglee"
+  }
+}
